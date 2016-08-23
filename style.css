@@ -21,6 +21,11 @@ h2 > a {
     color: #6F6581;
 }
 
+h3 > a {
+    text-decoration: none;
+    color: #6F6581;
+}
+
 img.void-logo {
     width: 225px;
     height: 125px;
@@ -140,6 +145,10 @@ h1.title {
 }
 
 h2.content {
+    margin: 10px;
+}
+
+div.body > h3 {
     margin: 10px;
 }
 
