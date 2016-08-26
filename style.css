@@ -6,6 +6,7 @@ body {
     background-color: #D1C9DF;
     color: white;
     font-family: 'Raleway', sans-serif;
+
     position: relative;
     margin:0;
     padding:0;
@@ -185,4 +186,8 @@ div.text {
 
 form {
     text-align: center;
+}
+
+p < b {
+    font-weight: 900;
 }
