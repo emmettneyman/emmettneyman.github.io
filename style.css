@@ -6,7 +6,6 @@ body {
     background-color: #D1C9DF;
     color: white;
     font-family: 'Raleway', sans-serif;
-
     position: relative;
     margin:0;
     padding:0;
@@ -190,4 +189,24 @@ form {
 
 p < b {
     font-weight: 900;
+}
+
+div.roster {
+    margin-left: 50px;
+}
+
+div.comp-col {
+    display: inline-block;
+    float: top;
+    width: 20%;
+    line-height: 140%;
+    vertical-align: top;
+}
+
+div.scrim-col {
+    display: inline-block;
+    float: top;
+    width: 20%;
+    line-height: 140%;
+    vertical-align: top;
 }
