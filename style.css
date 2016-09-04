@@ -9,7 +9,6 @@ body {
     position: relative;
     margin:0;
     padding:0;
-    height:100%;
 }
 
 p > a {
@@ -19,7 +18,12 @@ p > a {
 
 h2 > a {
     text-decoration: none;
-    color: #6F6581;
+    color: #6F6581; 
+}
+
+u > a {
+    text-decoration: none;
+    color: #6F6581; 
 }
 
 h3 > a {
@@ -46,7 +50,6 @@ li.menu-item {
     float: left;
     border: 3px solid #272034;
     border-radius: 6px;
-    width: 120px;
     height: 50px;
     vertical-align: middle;
     background-color: #6F6581;
