@@ -163,6 +163,7 @@ div.body > p {
 }
 
 img.team-photo {
+    max-width: 90%;
     border-radius: 10px;
     border-color: #272034;
     border-style: solid;
