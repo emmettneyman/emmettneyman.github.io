@@ -203,7 +203,7 @@ div.roster {
 div.comp-col {
     display: inline-block;
     float: top;
-    width: 20%;
+    width: 30%;
     line-height: 140%;
     vertical-align: top;
 }
@@ -211,7 +211,7 @@ div.comp-col {
 div.scrim-col {
     display: inline-block;
     float: top;
-    width: 20%;
+    width: 30%;
     line-height: 140%;
     vertical-align: top;
 }
