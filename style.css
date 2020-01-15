@@ -1,217 +1,69 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
-@import 'https://fonts.googleapis.com/css?family=Roboto';
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans";
+
+figure {
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    background-color: #D1C9DF;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    position: relative;
-    margin:0;
-    padding:0;
+  margin: 0 auto;
+  max-width: 80%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #9CD09B;
+  color: black;
+  text-align: center;
+  font-size: 20px;
 }
 
-p > a {
-    text-decoration: none;
-    color: #6F6581;
+ul {
+ margin: 20;
+ text-align: left;
 }
 
-h2 > a {
-    text-decoration: none;
-    color: #6F6581; 
+li {
+  margin: 10px;
 }
 
-u > a {
-    text-decoration: none;
-    color: #6F6581; 
+p {
+  margin: 30;
+  text-align: left;
 }
 
-h3 > a {
-    text-decoration: none;
-    color: #6F6581;
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
 }
 
-h1.CS > a {
-    text-decoration: none;
-    color: #6F6581;
+img.circle:hover {
+  background-color: #387637;
+  border-radius: 100%;
+  position: relative;
 }
 
-img.void-logo {
-    width: 225px;
-    height: 125px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    margin-right: 0px;
-}
-
-li.menu-item {
-    list-style: none;
-    float: left;
-    border: 3px solid #272034;
-    border-radius: 6px;
-    height: 50px;
-    vertical-align: middle;
-    background-color: #6F6581;
-}
-
-li.selected {
-    background-color: #D1C9DF;
-}
-
-li.selected > a {
-    color: #272034;
-}
-
-a.nav-link {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    display: inline-block;
-    width: 120px;
-    height: 50px;
-    text-align: center;
-    line-height: 48px;
-}
-
-a.social-link {
-    text-decoration: none;
-    height: 50px;
-    float: right;
-    width: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 9px;
-    display: inline-block;
-}
-
-li.menu-item:hover {
-    background-color: #D1C9DF;
-}
-
-a.nav-link:hover {
-    color: #272034;
-}
-
-div.header {
-    display:inline-block;
-    background-color: #272034;
-    width: 100%;
-}
-
-div.footer {
-    position:  fixed;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
-    margin-top: -60px;
-}
-
-div.nav-bar {
-    display: inline-block;
-    float: left;
-    margin-top: 18px;
-    margin-bottom: 10px;
-}
-
-div.logo {
-    display: inline-block;
-    float: left;
-}
-
-ul.main-menu {
-    list-style-type: none;
-    overflow: hidden;
-    display: inline-block;
-}
-
-div#wrapper {
-    height: 100%;
-    min-height:100%;
-    position:relative;
-    color: #272034;
-}
-
-div.body {
-    height: 100%;
-    padding-bottom: 60px;
-    background-color: #D1C9DF;
-    max-width: 75em;
-    margin: 0 auto;
-    display: block;
-}
-
-h1.CS {
-    text-align: center;
-    margin: 100px;
-    font-size: 70px;
+img.square:hover {
+  background-color: #387637;
+  border-radius: 16px;
+  position: relative;
 }
 
 h1.title {
-    font-weight: 900;
-    margin: 10px;
-    font-size: 50px;   
+  text-align: center;
+  font-size: 84px;
+  padding-top: 10px;
 }
 
-h2.content {
-    margin: 10px;
+h2.subtitle {
+  font-size: 30px;
 }
 
-div.body > h3 {
-    margin: 10px;
+h2.page-title {
+  padding-top: 20px;
+  font-size: 60px;
 }
 
-div.body > p {
-    margin: 10px;
-}
-
-img.team-photo {
-    max-width: 90%;
-    border-radius: 10px;
-    border-color: #272034;
-    border-style: solid;
-    border-width: 4px;
-    margin: 10px auto;
-}
-
-div.pic {
-    position: relative;
-    text-align: center;
-    max-width: 100%;
-}
-
-div.text {
-    text-align: center;
-    max-width: 900px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%)
-}
-
-form {
-    text-align: center;
-}
-
-p < b {
-    font-weight: 900;
-}
-
-div.roster {
-    margin-left: 50px;
-}
-
-div.comp-col {
-    display: inline-block;
-    float: top;
-    width: 30%;
-    line-height: 140%;
-    vertical-align: top;
-}
-
-div.scrim-col {
-    display: inline-block;
-    float: top;
-    width: 30%;
-    line-height: 140%;
-    vertical-align: top;
-}
+li>a:hover {
+  text-decoration: underline;

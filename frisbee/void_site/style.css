@@ -1,0 +1,172 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body {
+    background-color: #D1C9DF;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+p > a {
+    text-decoration: none;
+    color: #6F6581;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: #6F6581;
+}
+
+img.void-logo {
+    width: 225px;
+    height: 125px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+li.menu-item {
+    list-style: none;
+    float: left;
+    border: 3px solid #272034;
+    border-radius: 6px;
+    width: 120px;
+    height: 50px;
+    vertical-align: middle;
+    background-color: #6F6581;
+}
+
+li.selected {
+    background-color: #D1C9DF;
+}
+
+li.selected > a {
+    color: #272034;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 48px;
+}
+
+a.social-link {
+    text-decoration: none;
+    height: 50px;
+    float: right;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 9px;
+    display: inline-block;
+}
+
+li.menu-item:hover {
+    background-color: #D1C9DF;
+}
+
+a.nav-link:hover {
+    color: #272034;
+}
+
+div.header {
+    display:inline-block;
+    background-color: #272034;
+    width: 100%;
+}
+
+div.footer {
+    position:  fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    margin-top: -60px;
+}
+
+div.nav-bar {
+    display: inline-block;
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+div.logo {
+    display: inline-block;
+    float: left;
+}
+
+ul.main-menu {
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+}
+
+div#wrapper {
+    height: 100%;
+    min-height:100%;
+    position:relative;
+    color: #272034;
+}
+
+div.body {
+    height: 100%;
+    padding-bottom: 60px;
+    background-color: #D1C9DF;
+    max-width: 75em;
+    margin: 0 auto;
+    display: block;
+}
+
+h1.CS {
+    text-align: center;
+    margin: 100px;
+    font-size: 70px;
+}
+
+h1.title {
+    font-weight: 900;
+    margin: 10px;
+    font-size: 50px;   
+}
+
+h2.content {
+    margin: 10px;
+}
+
+div.body > p {
+    margin: 10px;
+}
+
+img.team-photo {
+    border-radius: 10px;
+    border-color: #272034;
+    border-style: solid;
+    border-width: 4px;
+    margin: 10px;
+}
+
+div.pic {
+    position: relative;
+    text-align: center;
+}
+
+div.text {
+    text-align: center;
+    width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+form {
+    text-align: center;
+}
