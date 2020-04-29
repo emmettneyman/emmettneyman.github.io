@@ -53,7 +53,7 @@ img.square:hover {
 h1.title {
   text-align: center;
   font-size: 84px;
-  padding-top: 10px;
+  margin-bottom: 0px;
 }
 
 h2.subtitle {
